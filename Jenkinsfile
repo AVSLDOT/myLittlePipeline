@@ -21,6 +21,6 @@ pipeline {
           //  steps {
            //     filterLogs('WARNING',2)
            // }        
-        }
+       // }
     }
 }
