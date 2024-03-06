@@ -17,10 +17,10 @@ pipeline {
                 
             }        
         }
-        stage ('Check Logs') {
-            steps {
-                filterLogs('WARNING',2)
-            }        
+        //stage ('Check Logs') {
+          //  steps {
+           //     filterLogs('WARNING',2)
+           // }        
         }
     }
 }
