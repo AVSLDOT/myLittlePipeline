@@ -4,7 +4,7 @@ pipeline {
     tools {
         maven 'localMaven396'
     }
-    agent any
+   agent {label 'linux_slave'}
     stages{
         stage ('Checkout code') {
             steps {
